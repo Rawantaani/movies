@@ -1,0 +1,28 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@1,5..1200,500&display=swap');
+
+
+.app{
+  
+    background-color: rgba(0, 0, 0,0.4);
+    color: white;
+}
+.app:before{
+    content: '';
+    background: url(./assets/pexels-dmitry-demidov-3921045.jpg)
+    no-repeat center center/cover;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+
+}
+.container{
+    
+    background-color: rgba(134, 130, 130, 0.4);
+    color: white; 
+}
+.card{
+    width: 250px;
+    padding-right: 10px;
+}
